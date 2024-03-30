@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {% block title %}
+        default title
+        {% endblock %}
+    </title>
+</head>
+<body>
+<h1>Магазин велосипедов в в Вашем городе</h1>
+
+{% block body_content %}
+<h2>'Велосипед спортивный'</h2>
+<p>'15 000 руб'</p>
+{% endblock %}
+<h1>Большие скидки</h1>
+
+<footer>
+    <p> 2024 Интернет-магазин велосипедов. Все лично проверены )).</p>
+</footer>
+</body>
+</html>
